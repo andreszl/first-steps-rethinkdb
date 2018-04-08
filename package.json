@@ -1,0 +1,34 @@
+{
+  "name": "first-steps-rethinkdb",
+  "version": "1.0.0",
+  "description": "first steps rethinkdb",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreszl/first-steps-rethinkdb.git"
+  },
+  "keywords": [
+    "DB",
+    "RethinkDB",
+    "NodeJS"
+  ],
+  "author": "andreszl",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andreszl/first-steps-rethinkdb/issues"
+  },
+  "homepage": "https://github.com/andreszl/first-steps-rethinkdb#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "nodemon": "^1.17.3",
+    "rethinkdb": "^2.3.3"
+  },
+  "dependencies": {
+    "rethinkdb-pool": "^1.1.0"
+  }
+}
